@@ -257,7 +257,7 @@ if __name__=='__main__':
 	title = ax1.set_title("")
 	ax1.legend(prop=dict(size=12))
 	ax1.set_xlabel('$x$')
-	ax1.set_ylabel(r'$|\psi(x)|$')
+	ax1.set_ylabel(r'$|\psi(x) |$')
 
 	# bottom axes show the k-space data
 	ymin = abs(S.psi_k).min()
